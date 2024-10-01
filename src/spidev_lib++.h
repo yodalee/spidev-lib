@@ -20,7 +20,6 @@
 
 #ifndef _SPI_LIB_HPP
 #define _SPI_LIB_HPP
-#endif 
 
 #include <stdint.h>
 #ifdef __cplusplus
@@ -65,7 +64,4 @@ public:
 
 #endif
 
-
-
-
-
+#endif // ifndef _SPI_LIB_HPP

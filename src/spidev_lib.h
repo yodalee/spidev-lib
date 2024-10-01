@@ -23,7 +23,6 @@
 
 #ifndef _SPI_LIB_H
 #define _SPI_LIB_H
-#endif 
 
 #include <stdint.h>
 #ifdef __cplusplus
@@ -46,6 +45,4 @@ int spi_write(int fd, uint8_t *tx_buffer, uint8_t tx_len);
 }
 #endif
 
-
-
-
+#endif // ifndef _SPI_LIB_H
